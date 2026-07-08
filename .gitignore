@@ -1,0 +1,14 @@
+
+# Python virtual environments
+backend-django-api/.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+*.env
+
+# Local SQLite database
+backend-django-api/db.sqlite3
