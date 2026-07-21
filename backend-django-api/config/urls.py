@@ -5,6 +5,6 @@ from core.views import health_check
 
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
+    path("backoffice-fm/", admin.site.urls),
     path("api/health/", health_check, name="health-check"),
 ]
